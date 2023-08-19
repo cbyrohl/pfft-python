@@ -8,7 +8,7 @@
 
 """
 from mpi4py import MPI
-cimport libmpi as cMPI
+cimport pfft.libmpi as cMPI
 import numpy
 cimport numpy
 from libc.stdlib cimport free, calloc
